@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #3 (4): Changing images</title>
+    <style>
+    	img {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            margin-top: 10px;
+        }
+    </style>
+</head>    
+<body>
+	<select onclick="myFunction()" name="select"  id="select">
+
+        <option value="Narway">Narway</option>
+    </select>
+	<div ><img  id="change" src="images.jpeg">
+	</div>
+<script type="text/javascript">	
+
+	function myFunction(){
+	var targetElement=document.getElementById('change');
+	targetElement.src="narway.png";
+	}
+
+
+</script>
+	
+</body>    	
+</html>
